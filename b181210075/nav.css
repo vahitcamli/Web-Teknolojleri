@@ -1,0 +1,52 @@
+nav
+{
+    width: 95%;
+    margin:0 auto;
+}
+.nav-link
+{
+    color:rgb(241, 204, 40);
+    border-right:2px solid rgb(9, 170, 245) ;
+    transition: border 0.3s ease-in;
+    border-radius: 10px;
+}
+.active
+{
+    border:2px solid rgb(9, 170, 245);
+}
+.nav-link:hover
+{
+    border-bottom:2px solid rgb(9, 170, 245);
+    border-top:2px solid rgb(9, 170, 245);
+    border-left:1px solid rgb(9, 170, 245);
+}
+.dropdown-menu
+{
+    left:auto;
+    right:auto;
+    border:1px solid rgb(9, 170, 245);
+    border-radius:5px;
+}
+.dropdown-item
+{
+    color:rgb(241, 204, 40);
+}
+@media screen and (max-width: 768px) 
+{
+.navbar-toggler
+{
+    color:rgb(9, 170, 245);
+    background-color:rgb(241, 204, 40);
+    outline: none;
+}
+.nav-link:hover
+{
+    border-bottom:1px solid rgb(9, 170, 245);
+    border-top:1px solid rgb(9, 170, 245);
+}
+.nav-link
+{
+    border-right:2px solid rgb(9, 170, 245);
+    border-left: 2px solid rgb(9, 170, 245);
+}
+}

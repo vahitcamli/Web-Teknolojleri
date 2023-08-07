@@ -1,0 +1,20 @@
+footer[class="row"]
+{
+    width:95%;
+    margin: 2% auto 5px auto;
+}
+#icons
+{
+    text-align: right;
+}
+@media screen and (max-width: 768px) 
+{
+footer[class="row"]
+{
+   text-align: center;
+}
+#icons
+    {
+    text-align: center;
+    }
+}

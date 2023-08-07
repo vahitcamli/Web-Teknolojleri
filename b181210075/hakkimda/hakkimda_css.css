@@ -1,0 +1,35 @@
+section[class="row"]
+{
+    width:95%;
+    margin: 0 auto 2% auto;
+    text-align: center;
+}
+#hakkimda_foto
+{
+   width: 20%;
+}
+div[class="row"]
+{
+    text-align: center;
+}
+.isaretsiz
+{
+    color:rgb(241, 204, 40);
+    text-decoration:none;
+}
+.isaretsiz:hover
+{
+    text-decoration:none;
+}
+@media screen and (max-width: 768px) 
+{
+    #hakkimda_foto
+{
+   width: 40%;
+}
+.block-yap
+    {
+        display:block;width:75%;
+        margin:1% auto;
+    }
+}

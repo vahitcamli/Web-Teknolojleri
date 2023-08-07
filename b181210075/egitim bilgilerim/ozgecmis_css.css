@@ -1,0 +1,34 @@
+
+section
+{
+    margin-top:3%;
+    margin-bottom:0.2%;
+    margin-left:2%;
+    margin-right:2%;
+}
+section div
+{
+    width:75%;
+    height:50%;
+    position: relative;
+    margin: auto;
+}
+table
+{
+    font-weight: bold;
+    color:rgb(241, 204, 40);
+    width:100%;
+    height:100%;
+    text-align: center;
+    border-collapse:collapse;
+}
+td
+{
+    padding-top:7.5%;
+    padding-bottom:7.5%;
+}
+tr,td,table
+{
+    border:solid 2px rgb(9, 170, 245);
+    border-collapse:collapse;
+}
